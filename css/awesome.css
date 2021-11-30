@@ -1,0 +1,21 @@
+span:hover, li:hover{
+    font-size: 26px;
+}
+.transition:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+.block{
+    animation: skew 2.5s infinite;
+	transform: skew(20deg);
+	animation-direction: alternate;
+	opacity: .7;
+}
+@keyframes skew {
+	0% {
+	  transform: skewX(20deg);
+	}
+	100% {
+	  transform: skewX(-20deg);
+	}
+}

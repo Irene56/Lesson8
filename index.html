@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/awesome.css">
+    <script src="https://use.fontawesome.com/2fdc903a89.js"></script>
+</head>
+<body>
+    <div class="content">
+        <h1>Lesson 8. Images. Font Awesome. Basic animation</h1>
+        <section class="icons">
+            <h2>Font Awesome + transition</h2>
+            <div class="transition">
+                <ul>
+                    <li><span class="awesome"><i class="fa fa-check-square"></i></span> Marvel</li>
+                    <li><span class="awesome"><i class="fa fa-spinner fa-pulse"></i></span> DC</li>
+                    <li><span class="awesome"><i class="fa fa-square-o" aria-hidden="true"></i></span> Star Wars</li>
+                </ul>
+            </div>
+            <p>Наведись на синий блок и узри магию transition.</p>
+        </section>
+        <section class="animation">
+            <h2>Transform</h2>
+            <div class="transform">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <p>Transform & keyframes в действии.</p>
+        </section>
+        <section class="background">
+            <h2>CSS Background</h2>
+            <div class="background_img">
+            </div>
+            <p>Выставляем картинку через <strong>CSS</strong> свойство <strong>background</strong>.</p>
+        </section>
+        <section class="img">
+            <h2>Images ( HTML Picture )</h2>
+            <div class="image">
+                <picture>
+                    <source srcset="./img/Baby-yoda.jpg" type="image/jpeg" media="(min-width:1330px)">
+                    <source srcset="./img/Spider-man.jpg" type="image/jpeg" media="(min-width:992px)">
+                    <source srcset="./img/Flash.jpg" type="image/jpeg" media="(max-width:992px)">
+                    <img src="./img/Flash.jpg" alt="">
+                </picture>
+            </div>
+            <p>Использование тега <strong>picture</strong> для отображения нужной картинки на нужном разрешении.</p>
+            <p>Открой эту страницу на <strong>разных девайсах</strong> и посмотри на результат.</p>
+        </section>
+        <section class="universes">
+            <h2>Universes (HTML object-fit )</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card_image">
+                        <img src="./img/Flash.jpg" alt="">
+                    </div>
+                    <div class="card_text">
+                        <p>Здесь кроется картинка с разрешением <strong>720*360</strong></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="./img/Spider-man.jpg" alt="">
+                    </div>
+                    <div class="card_text">
+                        <p>Здесь кроется картинка с разрешением <strong>900*582</strong></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="./img/Baby-yoda.jpg" alt="">
+                    </div>
+                    <div class="card_text">
+                        <p>Здесь кроется картинка с разрешением <strong>1332*850</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information">
+            <h2>Universes in a row</h2>
+            <div class="info_text">
+                <div class="info_img">
+                    <img src="./img/doctor-strange.jpg" alt="">
+                </div>
+                <div class="body">
+                    <div class="name">Marvel</div>
+                        <div class="text">
+                            Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as Timely Comics,
+                                 and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961,
+                                 the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, 
+                                 Steve Ditko and many others. The Marvel brand, which had been used over the years,
+                                 was solidified as the company's primary brand.
+                        </div>
+                </div>
+            </div>
+            <div class="info_text">
+                <div class="info_img">
+                    <img src="./img/Arthur_Fleck_Joker_Movie_002.jpg" alt="">
+                </div>
+                <div class="body">
+                    <div class="name">DC</div>
+                        <div class="text">
+                            DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner 
+                            being published in 1937.The majority of its publications take place within the fictional DC Universe and feature
+                            numerous culturally iconic heroic characters, 
+                            such as Superman, Batman, and Wonder Woman.
+                        </div>
+                </div>
+            </div>
+            <div class="info_text">
+                <div class="info_img">
+                    <img src="./img/The_Child_aka_Baby_Yoda_(Star_Wars).jpg" alt="">
+                </div>
+                <div class="body">
+                    <div class="name">Star Wars</div>
+                        <div class="text">
+                            Star Wars was released on May 25, 1977, and first subtitled Episode IV: 
+                            A New Hope in the 1979 book The Art of Star Wars.Episode V: The Empire Strikes Back was released on May 21, 
+                            1980, also achieving wide financial and critical success. The final film in the trilogy, 
+                            Episode VI: Return of the Jedi was released on May 25, 1983.
+                        </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

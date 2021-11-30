@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(235, 212, 245);
+    color: rgb(0, 0, 0);
+	font-size: 18px;
+	line-height: 26px;
+}
+.content{
+	max-width: 1330px;
+	margin: 0px auto;
+	padding: 50px 15px;
+}
+h1{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+ul{
+    list-style: none;
+}
+.transition{
+    background-color: rgb(143, 68, 241);
+    color: white;
+    width: 50%;
+    margin: 20px 0 20px 0;
+    padding: 5px 0 5px 30px;
+    border-radius: 15px;
+}
+span{
+    color: white;
+}
+.transform{
+    background-color: rgb(143, 68, 241);
+    width: 100%;
+    height: max-content;
+    margin: 20px 0 20px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    margin-top: 40px;
+}
+.block{
+    background-color: rgb(235, 212, 245);
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+.animation{
+    margin-top: 40px;
+}
+.background{
+    margin-top: 40px;
+}
+.background_img {
+	width: 100%;
+	height: 50vh;
+	margin: 20px 0 20px 0;
+	background: no-repeat url(../img/56099c4ccc898a4a6aaf3.jpg) center/cover;
+}
+.img{
+    margin-top: 40px;
+}
+.image{
+    margin: 20px 0 20px 0;
+}
+.image img{
+    max-width: 100%;
+}
+.universes{
+    margin-top: 40px;
+}
+.card{
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card_image{
+    flex: 0 1 30%;
+    height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.card_image img{
+    width: 100%;
+	height: 80%;
+	object-fit: cover;
+}
+.card_text{
+    text-align: center;
+}
+.information{
+    margin-top: 40px;
+}
+.info_text{
+	display: flex;
+	margin: 20px 0px 20px 0px;
+}
+.info_img{
+	flex: 0 0 33.333%;
+	position: relative;
+	min-height: 150px;
+}
+
+.info_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.body{
+	flex: 1 1 auto;
+	padding: 0px 0px 0px 30px;
+}
+.name{
+	font-size: 20px;
+	font-weight: 700;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+}
